@@ -7,9 +7,9 @@ import org.apache.commons.lang3.StringUtils;
 
 public enum Turno {
 
-    MANHA("manhã", "matutino"),
-    TARDE("tarde", "vespertino"),
-    NOITE("noite", "noturno");
+    MATUTINO("manhã", "matutino"),
+    VESPERTINO("tarde", "vespertino"),
+    NOTURNO("noite", "noturno");
 
     private final Collection<String> sinonimos = new ArrayList<>();
 
