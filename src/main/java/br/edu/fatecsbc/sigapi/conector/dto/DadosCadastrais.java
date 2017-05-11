@@ -9,6 +9,7 @@ public class DadosCadastrais {
     private String foto;
     private String ra;
     private String instituicao;
+    private String curso;
     private Turno turno;
     private final List<Email> emails = new ArrayList<>();
 
@@ -42,6 +43,14 @@ public class DadosCadastrais {
 
     public void setInstituicao(final String instituicao) {
         this.instituicao = instituicao;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(final String curso) {
+        this.curso = curso;
     }
 
     public Turno getTurno() {
